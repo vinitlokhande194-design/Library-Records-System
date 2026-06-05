@@ -184,7 +184,6 @@ Advantages:
 - Member Class
 - DAO Layer
 - JDBC Integration
-- Architecture Design
 - README Documentation
 
 ### Vinit
