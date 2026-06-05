@@ -111,56 +111,6 @@ Contains database connection utility.
 
 ---
 
-## Object-Oriented Concepts Used
-
-### Encapsulation
-
-Private variables with getter and setter methods.
-
-Example:
-
-```java
-private String title;
-
-public String getTitle()
-{
-    return title;
-}
-
-public void setTitle(String title)
-{
-    this.title = title;
-}
-```
-
-### Abstraction
-
-```java
-public abstract class Member
-```
-
-### Inheritance
-
-```java
-public class StudentMember extends Member
-
-public class FacultyMember extends Member
-```
-
-### Runtime Polymorphism
-
-```java
-Member member;
-
-member = new StudentMember();
-
-member = new FacultyMember();
-
-member.getBorrowLimit();
-```
-
----
-
 ## DAO Design Pattern
 
 The project follows DAO architecture to separate business logic from database logic.
